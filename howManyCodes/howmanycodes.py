@@ -98,7 +98,7 @@ def readFile(file):
 				cnt += 1
 		theVeryType.count += cnt
 		codeFile.close()
-
+		
 readConfig()
 for directory in dirList:
 	getDir(directory)

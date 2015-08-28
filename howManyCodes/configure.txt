@@ -1,7 +1,7 @@
 #directories list
 #prefix "!" for banned directories
-!..
-!../kennethreitz-requests-9648301
+
+!/Users/JafeChang/Documents/script/kennethreitz-requests-9648301
 /Users/JafeChang/Documents/workspace
 !/Users/JafeChang/Documents/workspace/struts-2.3.24
 !/Users/JafeChang/Documents/workspace/mysql-connector-java-5.1.36
@@ -21,6 +21,7 @@ C:\Users\local_jafe_2\Documents\GitHub
 !C:\Users\local_jafe_2\workspace\TankWar2.1
 C:\Users\local_jafe_2\Documents\Visual Studio 2013\Projects
 C:\Users\local_jafe_2\Documents\Visual Studio 2010\Projects
+/Users/JafeChang/Documents/script
 
 #extensions list
 #extension@language
