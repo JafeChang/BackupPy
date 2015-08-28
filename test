@@ -1,0 +1,10 @@
+import sys
+a=sys.platform
+print a
+if a=="win32":
+	print "yes"
+b=1
+for xrange in xrange(1,11):
+	b=b+1
+	print "x="+str(xrange)+"\t"
+print b

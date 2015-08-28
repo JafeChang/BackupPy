@@ -1,0 +1,43 @@
+#directories list
+#prefix "!" for banned directories
+!..
+!../kennethreitz-requests-9648301
+/Users/JafeChang/Documents/workspace
+!/Users/JafeChang/Documents/workspace/struts-2.3.24
+!/Users/JafeChang/Documents/workspace/mysql-connector-java-5.1.36
+!/Users/JafeChang/Documents/workspace/TankWar2.1
+!/Users/JafeChang/Documents/workspace/Snake
+!/Users/JafeChang/Documents/workspace/Servers
+!/Users/JafeChang/Documents/workspace/俄罗斯方块
+/Users/JafeChang/git
+!/Users/JafeChang/git/shadowsocks
+/Users/JafeChang/Documents/OS X
+C:\Users\local_jafe_2\git
+C:\Users\local_jafe_2\workspace
+!C:\Users\local_jafe_2\workspace\markdownj-master
+C:\Users\local_jafe_2\Documents\GitHub
+!C:\Users\local_jafe_2\workspace\Servers
+!C:\Users\local_jafe_2\workspace\Snake
+!C:\Users\local_jafe_2\workspace\TankWar2.1
+C:\Users\local_jafe_2\Documents\Visual Studio 2013\Projects
+C:\Users\local_jafe_2\Documents\Visual Studio 2010\Projects
+
+#extensions list
+#extension@language
+.py@python
+.java@java
+.c@C
+.cpp@C++
+.jsp@web
+.html@web
+.js@web
+.css@web
+.xml@configure
+.MF@configure
+.m@headfile
+.h@headfile
+.cs@C#
+.vba@VBA
+.bat@BAT
+
+#end
