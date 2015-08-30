@@ -50,6 +50,6 @@ for filesize in fileroot:
 								zenergys.remove("kcal/mol")
 								zeroenergy = zenergys[0]
 
-						print filesize+"\t"+fileno,"\t",totalenergy,"\t",zeroenergy,"\t",isSuccessful
+						print fileno+"\t"+outmol[0:-7],"\t",totalenergy,"\t",zeroenergy,"\t",isSuccessful
 
 os.system("PAUSE")
