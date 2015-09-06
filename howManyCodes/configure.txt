@@ -22,6 +22,7 @@ C:\Users\local_jafe_2\Documents\GitHub
 C:\Users\local_jafe_2\Documents\Visual Studio 2013\Projects
 C:\Users\local_jafe_2\Documents\Visual Studio 2010\Projects
 /Users/JafeChang/Documents/script
+!/Users/JafeChang/Documents/workspace/bjsxtMsb
 
 #extensions list
 #extension@language
