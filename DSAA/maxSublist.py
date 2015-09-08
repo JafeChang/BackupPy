@@ -66,36 +66,59 @@ def getMaxSublist3(l):
 		maxL = getMaxSublist3(l[0:h])
 		maxR = getMaxSublist3(l[h:n])
 		maxLR = 0
-		sumi = 0
-		for i in range(h-1,0):
-			sumi += l[h-1]
-			sum = sumi
-			for j in range(h,n):
-				sum += l[j]
-				if maxLR < sum:
-					maxLR = sum
-		if maxL > maxR :
-			if maxL > maxLR:
-				return maxL
-		elif maxL < maxR :
-			if maxR > maxLR:
-				return maxR
-		else:
-			return maxLR
+		maxLR1 = 0
+		maxLR2 = 0
+		sumL = 0
+		sumR = 0
+		for i in range(h-1,-1,-1):
+			sumL += l[i]
+			if maxLR1 < sumL:
+				maxLR1 = sumL
+		for j in range(h,n):
+			sumR += l[j]
+			if maxLR2 < sumR:
+				maxLR2 = sumR
+		maxLR = maxLR1 + maxLR2
+		return max([maxL,maxR,maxLR])
 	else:
-		return l[0]
+		#print 
+		return max(0,l[0])
+
+def getMaxSublist4(l):
+	negCnt = 0
+	for i in l:
+		if i<0:
+			negCnt += 0
+	if negCnt == len(l):
+		return
+	max = 0
+	sum = 0
+	for j in range(0,len(l)):
+		sum += l[j]
+		if max < sum:
+			max = sum
+		elif sum < 0:
+			sum = 0
+	return max
 
 
 
 
-l = getListInt(1000)
+l = getListInt(1000000)
+#l = [4,-3,5,-2,-1,2,6,-2]
+#l = [-2, 11,-4, 13, -5, -2]
 t0 = current_milli_time()
 #a1 = getMaxSublist1(l)
 t1 = current_milli_time()
-a2 = getMaxSublist2(l)
+#a2 = getMaxSublist2(l)
 t2 = current_milli_time()
 a3 = getMaxSublist3(l)
 t3 = current_milli_time()
+a4 = getMaxSublist4(l)
+t4 = current_milli_time()
 #print a1,"[1:",t1-t0,"milliseconds]"
-print a2,"[2:",t2-t1,"milliseconds]"
+#print a2,"[2:",t2-t1,"milliseconds]"
 print a3,"[3:",t3-t2,"milliseconds]"
+print a4,"[4:",t4-t3,"milliseconds]"
+#print 
+#print range(3,-1,-1)
