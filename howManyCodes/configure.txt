@@ -25,6 +25,8 @@ C:\Users\local_jafe_2\Documents\Visual Studio 2010\Projects
 !/Users/JafeChang/Documents/workspace/bjsxtMsb
 !/Users/JafeChang/Documents/workspace/struts2_3000_BBS2009_01
 !/Users/JafeChang/Documents/workspace/ext3.0
+!/Users/JafeChang/Documents/workspace/S2SH Framework
+
 
 #extensions list
 #extension@language
